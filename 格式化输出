@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Test {
+  public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    
+		double attack = 57.88;
+		double attackGrowth = 4.5;
+	
+		String line1 = String.format("\n伤害：%.2f(+%.2f)\n",attack,attackGrowth); 
+		System.out.println(line1);
+
+		    //等同与下面的代码
+        
+//    System.out.printf("\n伤害：%.2f(+%.2f)\n",attack,attackGrowth);
+
+	}
+
+}
