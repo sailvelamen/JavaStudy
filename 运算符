@@ -1,0 +1,38 @@
+public class Test{
+  public static void main(String[] args){
+  
+    	int x = 1024;
+      x += 10;
+      System.out.println("x += 10 等价于 x = x + 10\t\tx = " + x);
+      x -= 10;
+      System.out.println("x -= 10 等价于 x = x - 10\t\tx = " + x);
+      x *= 10;
+      System.out.println("x *= 10 等价于 x = x - 10\t\tx = " + x);
+      x /= 10;
+      System.out.println("x /= 10 等价于 x = x - 10\t\tx = " + x);
+      x %= 10;
+      System.out.println("x %= 10 等价于 x = x - 10\t\tx = " + x);
+
+      //定义两个整型变量
+      int num1 = -9527, num2 = 10;
+      //定义4个整型变量用来存放计算结果
+      int result1 = num1 / num2;	//除法
+      int result2 = num1 % num2;	//取摸（余）	最终结果的符号跟第一个操作数一致
+      int result3 = num1++;	
+      int result4 = num1--;	//后置++
+        //int result4 = num1;
+        //num1++(--);
+      int result5 = ++num2;
+      int result6 = --num2;	
+        //前置--
+        //++num2;
+        //int result2 = num2;
+      //打印计算结果
+      System.out.println("num1 / num2 = " + result1);
+      System.out.println("num1 % num2 = " + result2);
+      System.out.println("num1++ = " + result3);
+      System.out.println("num1-- = " + result4);
+      System.out.println("++num2 = " + result5);
+      System.out.println("--num2 = " + result6);
+  }
+}
