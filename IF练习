@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+  
+		/*if(5 > 9)
+			System.out.println("大于");
+		else
+//			System.out.println("小于");*/
+//		1.输入硬盘的盘符
+//		2.判断是否合法
+//		3.打印结果
+/*--------------------------------------------------------------------------------------------*/
+		Scanner input = new Scanner(System.in);
+		System.out.println("请输入盘符(大写)：");
+		char letter = input.next().charAt(0);	//取用户输入字符串的第一个字符
+		if(letter >= 'C' && letter <= 'Z') {//等价写法      !(letter < 'A' || letter > 'z')
+		//'A' <= letter <= 'z'  -- 错误的写法！！！
+			System.out.println("盘符正确");
+		}
+		else {
+			System.err.println("你输入了非法字符！！！");
+		}
+	}
+}
