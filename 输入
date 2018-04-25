@@ -1,0 +1,13 @@
+public class Test{
+  public static void main(String[] args){
+  
+    Scanner input = new Scanner(System.in);
+        //扫描对象，用来扫描系统的输入
+
+      System.out.print("性别：");
+      char sex = input.next().charAt(0);
+        //获得用户输入字符串的第一个字符
+      System.out.println("性别：" + sex);
+		
+  }
+}
