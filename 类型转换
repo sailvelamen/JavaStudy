@@ -1,0 +1,21 @@
+public class Test {
+
+	public static void main(String[] args) {
+		
+		long number1 = 2147483648l;
+			//由于默认的为int型所以要在后面加l
+		float number2 = 3.1f;//自动类型转换
+			//由于默认的为double型所以要在后面加f
+		
+		int num = 90;	//自动类型转换
+		double num1 = num;	
+		
+		double num2 = 90.0;	//强制类型转换
+		int num3 = (int)num2;
+		
+		int num4 = 5/2;			
+		double num5 = 5d/2;		//由于5和2为整型所以运算后的结果还为整型，只是被转换为double型
+		System.out.println(num5);
+	}
+
+}
