@@ -1,0 +1,12 @@
+public class While {
+
+	public static void main(String[] args) {
+		
+		int i = 0;	//循环变量的类型和初值
+		
+		while(i > 10) {	//循环变量的判断
+			System.out.println(i);
+			i++;	//循环变量的更新
+		}
+	}
+}
