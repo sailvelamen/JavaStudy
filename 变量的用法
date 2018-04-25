@@ -1,0 +1,18 @@
+public class VarDemo {
+
+	public static void main(String[] args) {
+		String brand = "华硕ASUS";
+		String type = "GTX 1080";
+		int hz = 1569;
+		float length = 29.8f;	//默认的小数类型为double类型
+		float width = 13.4f;
+		double heigth = 5.25;
+		
+		System.out.println("品牌：" + brand);
+		System.out.println("型号：" + type);
+		System.out.println("核心频率：" + hz + "MHz");
+		System.out.println("长宽高：" + length + "\t" + width + "\t" + heigth);
+
+	}
+
+}
